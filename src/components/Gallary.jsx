@@ -68,6 +68,9 @@ const Gallery = () => {
 
   return (
     <section className="py-20 bg-gray-950">
+      <p className="text-white text-center">
+        Screen width: {window.innerWidth}px
+      </p>
       <div className="max-w-7xl mx-auto px-6">
 
         {/* Heading */}
